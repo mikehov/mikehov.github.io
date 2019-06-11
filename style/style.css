@@ -12,7 +12,7 @@
 /* Yellow: #FFC917 */
 
 body {
-    background-color: #D0CBD3;
+    background-color: white;
 }
 
 #canvas {
@@ -42,7 +42,7 @@ body {
 .kleuren {
     width: 50%;
     height: 90px;
-    background-color: fuchsia;
+    background-color: #003082;
     position: fixed;
     border-right: 5px solid #FFC917;
 }
