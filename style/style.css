@@ -12,7 +12,7 @@
 /* Yellow: #FFC917 */
 
 body {
-    background-color: white;
+    background-color: #D0CBD3;
 }
 
 #canvas {
@@ -42,7 +42,7 @@ body {
 .kleuren {
     width: 50%;
     height: 90px;
-    background-color: #003082;
+    background-color: fuchsia;
     position: fixed;
     border-right: 5px solid #FFC917;
 }
@@ -146,16 +146,15 @@ body {
     margin-left: 10px;
 }
 
-/*-----------------------------------------*/
-
-.reset {
-    width: 60px;
-    height: 60px;
-    background-image: url(../img/resetbutton.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    right: 0;
-    position: fixed;
-    margin-right: 15px;
-    margin-top: 15px;
+/*
+.kleurline {
+    width: 5px;
+    height: 70px;
+    background-color: #FFC917;
+    position: flex;
+    display: inline-block;
+    margin-top: 10px;
+    right: 0px;
 }
+*/
+
