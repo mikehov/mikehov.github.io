@@ -12,7 +12,7 @@
 /* Yellow: #FFC917 */
 
 body {
-    background-color: #D0CBD3;
+    background-color: white;
 }
 
 #canvas {
@@ -42,7 +42,7 @@ body {
 .kleuren {
     width: 50%;
     height: 90px;
-    background-color: fuchsia;
+    background-color: #003082;
     position: fixed;
     border-right: 5px solid #FFC917;
 }
@@ -146,15 +146,28 @@ body {
     margin-left: 10px;
 }
 
-/*
-.kleurline {
-    width: 5px;
-    height: 70px;
-    background-color: #FFC917;
-    position: flex;
-    display: inline-block;
-    margin-top: 10px;
-    right: 0px;
-}
-*/
+/*-----------------------------------------*/
 
+.print {
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/printerbutton.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 0;
+    position: fixed;
+    margin-right: 120px;
+    margin-top: 15px;
+}
+
+.reset {
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/resetbutton.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 0;
+    position: fixed;
+    margin-right: 15px;
+    margin-top: 15px;
+}
