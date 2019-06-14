@@ -52,11 +52,11 @@ window.addEventListener("load", () => {
     //        canvas.addEventListener('mousemove', draw);
     //        canvas.addEventListener('touchmove', draw);
 
-//    canvas.addEventListener('mousedown', finishedPosition);
-//    canvas.addEventListener('mousemove', draw);
-//    canvas.addEventListener('mouseup', startPosition);
-//    document.addEventListener('mouseup', startPosition);
-//    canvas.addEventListener('contextmenu', startPosition);
+    canvas.addEventListener('mousedown', finishedPosition);
+    canvas.addEventListener('mousemove', draw);
+    canvas.addEventListener('mouseup', startPosition);
+    document.addEventListener('mouseup', startPosition);
+    canvas.addEventListener('contextmenu', startPosition);
 
     canvas.addEventListener('touchstart', startPosition, false);
     canvas.addEventListener('touchmove', draw, false);
